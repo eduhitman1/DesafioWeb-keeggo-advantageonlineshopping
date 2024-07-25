@@ -54,9 +54,17 @@ Then("valido o evento de mensagem que o produto foi adicionando com sucesso", ()
     cy.validaEventoProdutoAdicionado()
 })
 
+// ================ SEACH PRODUCT 
 
+And("preencho no campo pesquisa produto", () =>{
+    cy.pesquisaProduto()
+})
 
+Then("valido se existe o produto no sitema", () =>{
+    cy.ValidaProdutoPesquisa()
+})
 
+// =================== CHECK OUT PRODUCT
 
       
       
