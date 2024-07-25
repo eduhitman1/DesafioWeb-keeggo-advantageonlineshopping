@@ -11,4 +11,4 @@ Cenario: CT01 - Realiza cadastro de usuário no sistema advantage
 E clico em CREATE NEW ACCOUNT
 E informo os dados account details
 E informo os dados personal details
-E informo o address
+E informo o addresss
