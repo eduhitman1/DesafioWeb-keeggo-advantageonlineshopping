@@ -19,6 +19,68 @@ Cypress.Commands.add('acessarAreaCadastro', ()=>{
     cy.get('.create-new-account').click()
 })
 
+Cypress.Commands.add('acessarAreaLogin', ()=>{
+  cy.get('#menuUserLink').click()
+})
+
+Cypress.Commands.add('preencherUsernamePassword', ()=>{
+  cy.get('[name="username"]').type("iameduardoneill")
+  cy.get('[name="password"]').type("Eduhitman1**")
+})
+
+Cypress.Commands.add('botaoSignIN', ()=>{
+  cy.get('#sign_in_btn').click()
+})
+
+Cypress.Commands.add('validarUsuarioLogador', ()=>{
+cy.get('a:contains(iameduardoneill)')
+})
+
+Cypress.Commands.add('selecionarCategoriaProduto', ()=>{
+  var categoria = "tablets";
+  switch(categoria) {
+    case 'speakers':
+      cy.get('#speakersTxt').click();
+      break;
+
+      case 'tablets':
+      cy.get('#tabletsTxt').click();
+      break;
+      
+      case 'labtops':
+      cy.get('#laptopsTxt').click();
+      break;
+      
+      case 'mice':
+      cy.get('#miceTxt').click();
+      break; 
+
+      case 'headphone':
+      cy.get('#headphonesTxt').click();
+      break; 
+  }
+})
+
+Cypress.Commands.add('acessarPrimeiraOferta', ()=>{
+  cy.get('a:contains(BUY NOW)').click()
+})
+  
+Cypress.Commands.add('adicionarProdutoAoCarrinho', ()=>{
+  cy.get('button:contains(ADD TO CART)').click()
+})
+
+Cypress.Commands.add('validaEventoProdutoAdicionado', ()=>{
+  cy.get('a > h3.ng-binding').should("be.visible")
+})
+
+Cypress.Commands.add('pesquisaProduto', ()=>{
+cy.get('[name="mobile_search"]').type("HP ELITEPAD 1000 G2 TABLET{enter}")
+})
+
+Cypress.Commands.add('ValidaProdutoPesquisa', ()=>{
+cy.get('.productName').should("be.visible")
+})
+
 Cypress.Commands.add('preencherAccountDetails', ()=>{
     cy.get(LBL_ACCOUNT_DETAILS).should('exist')
     cy.contains('ACCOUNT DETAILS').should('be.visible')
@@ -28,13 +90,11 @@ Cypress.Commands.add('preencherAccountDetails', ()=>{
     cy.get(TXT_CONFIRMPASSWORD).should('be.visible').type(Cypress.env('confirmpassword'))
     
 })
-
 Cypress.Commands.add('personalDetails', ()=>{
     cy.get('[sec-name="userFirstName"] > .inputContainer > label').type("Eduardo")
     cy.get('[sec-name="userLastName"] > .inputContainer > .ng-pristine').type("Matias")
     cy.get(':nth-child(2) > :nth-child(3) > .ng-isolate-scope > .inputContainer > .ng-pristine').type("11947226441")
 })  
-
 Cypress.Commands.add('address', ()=>{
     cy.get('[sec-name="userCountry"] > .inputContainer > .ng-pristine').select("Brazil")
     cy.get('[sec-name="userCity"] > .inputContainer > .ng-pristine').type('São paulo')
