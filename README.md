@@ -18,7 +18,7 @@ comando de instalação do cypress na máquina (usando CMD)
 - npm install cypress --save-dev
 
 🌌4 passo
-baixo ferramenta de ambiente de densenvolvimento
+baixa ferramenta de ambiente de densenvolvimento
 - VScode (clique na parte superior open folder e selecionar a pasta do projeto)
 
 🌌5 passo 
