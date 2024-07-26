@@ -26,15 +26,3 @@ execução do projeto com E2E interface
 Abrir um novo terminal no VScode mesmo 
 digite o comando abaixo e siga os passos 
 npx cypress open -> Test E2E -> selecionar o browser - > selecionar o arquivo adicionarProdutoCarrinho.feature
-
-
-
-
- 
-
-
-Comandos necessários para execução  
-npm init -y  (criando o projeto com as configurações padrões)
-
-1 -
-2 -
