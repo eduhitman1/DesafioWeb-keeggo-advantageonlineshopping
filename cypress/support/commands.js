@@ -77,8 +77,20 @@ Cypress.Commands.add('pesquisaProduto', ()=>{
 cy.get('[name="mobile_search"]').type("HP ELITEPAD 1000 G2 TABLET{enter}")
 })
 
-Cypress.Commands.add('ValidaProdutoPesquisa', ()=>{
+Cypress.Commands.add('validaProdutoPesquisa', ()=>{
 cy.get('.productName').should("be.visible")
+})
+
+Cypress.Commands.add('clicarBotaoCarrinho', ()=>{
+cy.get('#shoppingCartLink').click()
+})
+
+Cypress.Commands.add('acessarAreaCheckout', ()=>{
+cy.get('#checkOutButton').click()
+})
+
+Cypress.Commands.add('validarProdutoTelaPagamento', ()=>{
+cy.get('#userCart').should("be.visible")
 })
 
 Cypress.Commands.add('preencherAccountDetails', ()=>{
@@ -101,7 +113,9 @@ Cypress.Commands.add('address', ()=>{
     cy.get('[sec-name="userAdress"] > .inputContainer > .ng-pristine').type("Rua Francisco Alvares")
     cy.get('[sec-name="userState"] > .inputContainer > label').type("SP")
     cy.get('#formCover > :nth-child(3) > :nth-child(4) > .ng-isolate-scope > .inputContainer > .ng-pristine').type("02368040")
+    
     cy.get('[sec-name="registrationAgreement"] > .inputContainer > .ng-pristine').click()
+    cy.get('#register_btn').click()
 })
 
 Cypress.Commands.add('login', 

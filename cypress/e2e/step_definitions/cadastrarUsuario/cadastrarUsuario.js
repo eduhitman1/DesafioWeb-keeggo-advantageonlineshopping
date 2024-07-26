@@ -1,4 +1,4 @@
-import {Given, And} from 'cypress-cucumber-preprocessor/steps'
+import {Given, And, Then} from 'cypress-cucumber-preprocessor/steps'
 
 Given("que estou com a aplicacao aberta", () =>{
     cy.carregandoAplicacao()
@@ -61,10 +61,21 @@ And("preencho no campo pesquisa produto", () =>{
 })
 
 Then("valido se existe o produto no sitema", () =>{
-    cy.ValidaProdutoPesquisa()
+    cy.validaProdutoPesquisa()
 })
 
 // =================== CHECK OUT PRODUCT
 
+And("clico no icone de carrinho para acessa os produtos adicionados", () =>{
+    cy.clicarBotaoCarrinho()
+})    
       
-      
+And("clico no botao CHECKOUT para acessa area de pagamento", () =>{
+    cy.wait(2000)
+    cy.acessarAreaCheckout()
+})
+
+Then("valido produtos incluídos na tela de pagamento", () =>{
+    cy.wait(2000)
+    cy.validarProdutoTelaPagamento()
+})
