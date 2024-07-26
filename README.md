@@ -19,7 +19,7 @@ comando de instalação do cypress na máquina (usando CMD)
 
 🌌4 passo
 baixa ferramenta de ambiente de densenvolvimento
-- VScode (clique na parte superior open folder e selecionar a pasta do projeto)
+- VScode (em seguida clique na parte superior open folder e selecionar a pasta do projeto)
 
 🌌5 passo 
 execução do projeto com E2E interface
