@@ -24,9 +24,19 @@ Cypress.Commands.add('acessarAreaLogin', ()=>{
 })
 
 Cypress.Commands.add('preencherUsernamePassword', ()=>{
-  cy.get('[name="username"]').type("iameduardoneill")
-  cy.get('[name="password"]').type("Eduhitman1**")
+  cy.login()
 })
+
+Cypress.Commands.add('login', 
+  (user = Cypress.env('login_name'),password = Cypress.env('user_password'),) => {
+    const login = () =>{
+      cy.get('[name="username"]').type(user)
+      cy.get('[name="password"]').type(password, {log:false})
+    
+    }
+    login()
+  })
+
 
 Cypress.Commands.add('botaoSignIN', ()=>{
   cy.get('#sign_in_btn').click()
@@ -118,16 +128,6 @@ Cypress.Commands.add('address', ()=>{
     cy.get('#register_btn').click()
 })
 
-Cypress.Commands.add('login', 
-    (user = Cypress.env('login_name'),
-     password = Cypress.env('user_password'),
-    ) => {
-      const login = () =>{
-        cy.get("").type(user)
-        cy.get("").type(password, {log:false})
-        cy.get("").click()
-      }
-      login()
-    })
+
 
 

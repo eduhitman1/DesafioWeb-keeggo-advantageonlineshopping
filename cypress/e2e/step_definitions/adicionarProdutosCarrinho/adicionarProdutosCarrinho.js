@@ -20,8 +20,6 @@ And("informo o address", () =>{
     cy.address()
 })
 
-// ========================== ADICIONA PRODUTO =======================
-
 And("clico no icone superior direito com o simbolizando de login", () =>{
     cy.acessarAreaLogin()
 })
@@ -54,17 +52,13 @@ Then("valido o evento de mensagem que o produto foi adicionando com sucesso", ()
     cy.validaEventoProdutoAdicionado()
 })
 
-// ================ SEACH PRODUCT 
-
 And("preencho no campo pesquisa produto", () =>{
     cy.pesquisaProduto()
 })
 
-Then("valido se existe o produto no sitema", () =>{
+Then("valido se existe o produto no sistema", () =>{
     cy.validaProdutoPesquisa()
 })
-
-// =================== CHECK OUT PRODUCT
 
 And("clico no icone de carrinho para acessa os produtos adicionados", () =>{
     cy.clicarBotaoCarrinho()

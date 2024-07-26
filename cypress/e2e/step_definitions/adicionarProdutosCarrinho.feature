@@ -20,7 +20,7 @@ E preencho os campos userName e Password
 E clico no botão Sign in 
 E valido na barra superior direito o cliente registrado
 E preencho no campo pesquisa produto
-Entao valido se existe o produto no sitema
+Entao valido se existe o produto no sistema
 
 @AdicionarProduto01
 Cenario: CT02 - Validar que o produto foi adicionado no carrinho após o cliente reazlizar o login
