@@ -8,18 +8,16 @@ module.exports = defineConfig({
       on('file:preprocessor',cucumber())
       },
       },
-      /////// COM CUCUMBER OU NÃO ENTÃO PODE COMENTAR
       e2e: {
         setupNodeEvents(on, config) {
           on('file:preprocessor',cucumber())
         },
         specPattern: "cypress/e2e/step_definitions/*.feature"
       },
-      /////// COM CUCUMBER OU NÃO ENTÃO PODE COMENTAR
       env: {
-        login_name: "iamduardo1234",
+        login_name: "iameduardoneill",
         user_password: "Eduhitman1**",
-        username: "eduardo",
+        username: "iameduardoneill",
         email: "edu.hitman01.eh@gmail.com",
         password: "Eduhitman1**",
         confirmpassword: "Eduhitman1**"
