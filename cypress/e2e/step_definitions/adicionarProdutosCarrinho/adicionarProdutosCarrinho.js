@@ -36,8 +36,10 @@ And("valido na barra superior direito o cliente registrado", () =>{
     cy.validarUsuarioLogador()
 })
 
-And("seleciono a categoria do produto Tablets", () =>{
-    cy.selecionarCategoriaProduto()
+And("seleciono a categoria do produto {string}", (categoria) =>{
+    cy.log(`que busco uma proposta na etapa ${categoria}`)
+    cy.selecionarCategoriaProduto(categoria)
+    
 })
 
 And("clico na primeira oferta de produto no botao BUY NOW", () =>{

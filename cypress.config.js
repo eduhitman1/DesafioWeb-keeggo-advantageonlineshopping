@@ -3,7 +3,8 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   e2e: {
-    baseUrl: 'http://www.advantageonlineshopping.com',
+    viewportWidth: 1920,
+    viewportHeight: 1080,
     setupNodeEvents(on, config) {
       on('file:preprocessor',cucumber())
       },
@@ -15,6 +16,7 @@ module.exports = defineConfig({
         specPattern: "cypress/e2e/step_definitions/*.feature"
       },
       env: {
+        baseUrl: 'http://www.advantageonlineshopping.com',
         login_name: "iameduardoneill",
         user_password: "Eduhitman1**",
         username: "iameduardoneill",

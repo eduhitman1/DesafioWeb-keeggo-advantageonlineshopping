@@ -21,6 +21,5 @@ Cypress.Commands.add('preencherUsernamePassword', ()=>{
 
     
 Cypress.Commands.add('botaoSignIN', ()=>{
-        cy.wait(3000)
-        cy.get('#sign_in_btn').click()
+        cy.get('#sign_in_btn',{ timeout: 3000 }).click()
 })

@@ -19,7 +19,7 @@ E clico no icone superior direito com o simbolizando de login
 E preencho os campos userName e Password
 E clico no botão Sign in 
 E valido na barra superior direito o cliente registrado
-E preencho no campo pesquisa produto
+E preencho no campo pesquisa produto 
 Entao valido se existe o produto no sistema
 
 @AdicionarProduto01
@@ -28,7 +28,7 @@ E clico no icone superior direito com o simbolizando de login
 E preencho os campos userName e Password
 E clico no botão Sign in 
 E valido na barra superior direito o cliente registrado
-E seleciono a categoria do produto Tablets 
+E seleciono a categoria do produto 'tablets' 
 E clico na primeira oferta de produto no botao BUY NOW 
 E clico no botão ADD TO CART
 Entao valido o evento de mensagem que o produto foi adicionando com sucesso
@@ -39,7 +39,7 @@ E clico no icone superior direito com o simbolizando de login
 E preencho os campos userName e Password
 E clico no botão Sign in 
 E valido na barra superior direito o cliente registrado
-E seleciono a categoria do produto Tablets 
+E seleciono a categoria do produto 'tablets'
 E clico na primeira oferta de produto no botao BUY NOW 
 E clico no botão ADD TO CART
 E clico no icone de carrinho para acessa os produtos adicionados

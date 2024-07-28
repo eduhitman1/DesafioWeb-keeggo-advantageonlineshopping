@@ -14,7 +14,4 @@ context('Criando usuario', () =>{
       cy.get('[sec-name="registrationAgreement"] > .inputContainer > .ng-pristine',{timeout: 3000}).click()
   })
 })
-
-
-
 })
