@@ -4,13 +4,19 @@ const TXT_PESQUISA_PRODUTO = '[name="mobile_search"]'
 
 const LINK_ICON_LOGIN = '#menuUserLink'
 
+const LINK_SPEAKERS = '#speakersTxt'
+const LINK_TABLETS = '#tabletsTxt'
+const LINK_LAPTOPS = '#laptopsTxt'
+const LINK_MICE = '#miceTxt'
+const LINK_HEADPHONES = '#headphonesTxt'
+
 Cypress.Commands.add('carregandoAplicacao', ()=>{
   cy.visit(Cypress.env('baseUrl'))
   cy.wait(5000)
 })
 
 Cypress.Commands.add('pesquisaProduto', ()=>{
-  cy.get(TXT_PESQUISA_PRODUTO).type("HP ELITEPAD 1000 G2 TABLET{enter}")
+  cy.get(TXT_PESQUISA_PRODUTO).type(Cypress.env('pesquisa_produto'),"{enter}")
   })
 
 Cypress.Commands.add('acessarAreaLogin', ()=>{
@@ -24,23 +30,23 @@ Cypress.Commands.add('validarUsuarioLogador', ()=>{
 Cypress.Commands.add('selecionarCategoriaProduto', (categoria)=>{
   switch(categoria) {
     case 'speakers':
-      cy.get('#speakersTxt').click();
+      cy.get(LINK_SPEAKERS).click();
       break;
 
       case 'tablets':
-      cy.get('#tabletsTxt').click();
+      cy.get(LINK_TABLETS).click();
       break;
       
       case 'labtops':
-      cy.get('#laptopsTxt').click();
+      cy.get(LINK_LAPTOPS).click();
       break;
       
       case 'mice':
-      cy.get('#miceTxt').click();
+      cy.get(LINK_MICE).click();
       break; 
 
       case 'headphone':
-      cy.get('#headphonesTxt').click();
+      cy.get(LINK_HEADPHONES).click();
       break; 
   }
 })

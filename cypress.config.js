@@ -22,6 +22,7 @@ module.exports = defineConfig({
         username: "iameduardoneill",
         email: "edu.hitman01.eh@gmail.com",
         password: "Eduhitman1**",
-        confirmpassword: "Eduhitman1**"
+        confirmpassword: "Eduhitman1**",
+        pesquisa_produto: "HP ELITEPAD 1000 G2 TABLET"
       }
 });
