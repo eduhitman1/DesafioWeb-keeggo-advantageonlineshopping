@@ -32,7 +32,6 @@ module.exports = (on, config) => {
         deleteFile(fileName) {
             const fs = require('fs')
             const userName = require('os').userInfo().username
-            const downloadPath = '/diego/Projetos/ORIG/mobile-portais-imobpf/mobile-portais-imobpf.bin/files/cypress/fixtures/'
             const absolutePath = downloadPath + fileName
             const fileStats = fs.statSync(absolutePath)
             const fileSize = fileStats.size
