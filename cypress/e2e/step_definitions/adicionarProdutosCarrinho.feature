@@ -1,7 +1,7 @@
 #utf-8
 #language: pt
 
-Funcionalidade: Fluxo de registro de produto no carrinho
+Funcionalidade: Fluxo de registro de produtos no carrinho
 
 Contexto: inicializa aplicação
 Dado que estou com a aplicacao aberta 
@@ -24,7 +24,7 @@ E preencho no campo pesquisa produto
 Entao valido se existe o produto no sistema
 
 @AdicionarProduto01
-Cenario: CT02 - Validar que o produto foi adicionado no carrinho após o cliente reazlizar o login
+Cenario: CT02 - Validar que o produto foi adicionado no carrinho após o cliente realizar o login
 E clico no icone superior direito com o simbolizando de login 
 E preencho os campos userName e Password
 E clico no botão Sign in 

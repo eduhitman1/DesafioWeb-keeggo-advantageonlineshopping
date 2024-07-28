@@ -50,18 +50,6 @@ module.exports = (on, config) => {
             console.log('File is not exists')
             return null
         },
-        copiarArquivo() {
-            const fs = require('fs')
-            try {
-                fs.copyFile('/diego/Projetos/ORIG/mobile-portais-imobpf/mobile-portais-imobpf.bin/files/cypress/downloads/Areas_E_Fracoes_Proposta1522019.xls', '/diego/Projetos/ORIG/mobile-portais-imobpf/mobile-portais-imobpf.bin/files/cypress/fixtures/Areas_E_Fracoes_Proposta.xls')
-                console.log('Arquivo Copiado!')
-                return null
-            } catch (err) {
-                console.log(err)
-            }
-            console.log('Arquivo não encontrado')
-            return null
-        },
         readdirSync({ path }) {
             const fs = require('fs')
             const dirents = fs.readdirSync(path, { withFileTypes: true })
