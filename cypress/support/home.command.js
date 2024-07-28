@@ -1,6 +1,6 @@
 Cypress.Commands.add('carregandoAplicacao', ()=>{
-  cy.wait(3000)
   cy.visit('http://www.advantageonlineshopping.com/#/')
+  cy.wait(5000)
 })
 
 Cypress.Commands.add('pesquisaProduto', ()=>{

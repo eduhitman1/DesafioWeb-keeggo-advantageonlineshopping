@@ -17,8 +17,8 @@
 import './commands'
 import './home.command'
 import './login.command'
-import './cadastroCliente.command'
-import './workshopProduto.command'
-import './pagamentoProduto.command'
+import './cliente/cadastroCliente.command'
+import './produto/workshopProduto.command'
+import './produto/pagamentoProduto.command'
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
