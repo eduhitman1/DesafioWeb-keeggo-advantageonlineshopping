@@ -4,20 +4,24 @@ Given("que estou com a aplicacao aberta", () =>{
     cy.carregandoAplicacao()
 })
 
-And("clico em CREATE NEW ACCOUNT", () =>{
+And("clico no link na area login create new account", () =>{
      cy.acessarAreaCadastro()
 })
 
-And("informo os dados account details", () =>{
+And("preencho os dados account details", () =>{
     cy.preencherAccountDetails()
 })
 
-And("informo os dados personal details", () =>{
+And("preencho os dados personal details", () =>{
     cy.personalDetails()
 })
 
-And("informo o address", () =>{
+And("preencho os dados address", () =>{
     cy.address()
+})
+
+And("clico no botao register para realizar o cadastro", () =>{
+    cy.clicarBotaoRegister()
 })
 
 And("clico no icone superior direito com o simbolizando de login", () =>{

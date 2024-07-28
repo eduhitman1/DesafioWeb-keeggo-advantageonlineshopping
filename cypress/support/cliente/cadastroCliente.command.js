@@ -38,7 +38,9 @@ Cypress.Commands.add('address', ()=>{
     cy.get(TXT_ENDERECO).type("Rua Francisco Alvares")
     cy.get(TXT_REGIAO).type("SP")
     cy.get(TXT_CEP).type("02368040")
-    
+})
+
+Cypress.Commands.add('clicarBotaoRegister', ()=>{
     cy.get(CHECKBOX_LICENSE).click()
     cy.get(BTN_REGISTRAR).click()
 })
