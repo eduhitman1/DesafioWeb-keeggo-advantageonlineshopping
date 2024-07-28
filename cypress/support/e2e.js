@@ -15,10 +15,10 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
-import './home.command'
-import './login.command'
-import './cliente/cadastroCliente.command'
-import './produto/workshopProduto.command'
-import './produto/pagamentoProduto.command'
+import './commands/home.command'
+import './commands/login.command'
+import './commands/cliente/cadastroCliente.command'
+import './commands/produto/workshopProduto.command'
+import './commands/produto/pagamentoProduto.command'
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

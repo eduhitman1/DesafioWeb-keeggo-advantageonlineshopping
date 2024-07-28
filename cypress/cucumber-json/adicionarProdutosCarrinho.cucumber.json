@@ -27,7 +27,7 @@
             "name": "que estou com a aplicacao aberta",
             "result": {
               "status": "passed",
-              "duration": 6588000000
+              "duration": 6550000000
             }
           },
           {
@@ -37,7 +37,7 @@
             "name": "clico no link na area login create new account",
             "result": {
               "status": "passed",
-              "duration": 888000000
+              "duration": 862000000
             }
           },
           {
@@ -47,7 +47,7 @@
             "name": "preencho os dados account details",
             "result": {
               "status": "passed",
-              "duration": 2539000000
+              "duration": 2696000000
             }
           },
           {
@@ -57,7 +57,7 @@
             "name": "preencho os dados personal details",
             "result": {
               "status": "passed",
-              "duration": 1039000000
+              "duration": 1069000000
             }
           },
           {
@@ -67,7 +67,7 @@
             "name": "preencho os dados address",
             "result": {
               "status": "passed",
-              "duration": 1716000000
+              "duration": 1753000000
             }
           },
           {
@@ -77,7 +77,7 @@
             "name": "clico no botao register para realizar o cadastro",
             "result": {
               "status": "passed",
-              "duration": 313000000
+              "duration": 353000000
             }
           }
         ]
@@ -102,7 +102,7 @@
             "name": "que estou com a aplicacao aberta",
             "result": {
               "status": "passed",
-              "duration": 5781000000
+              "duration": 5495000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "clico no icone superior direito com o simbolizando de login",
             "result": {
               "status": "passed",
-              "duration": 115000000
+              "duration": 150000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "preencho os campos userName e Password",
             "result": {
               "status": "passed",
-              "duration": 3636000000
+              "duration": 3712000000
             }
           },
           {
@@ -132,7 +132,7 @@
             "name": "clico no botão Sign in",
             "result": {
               "status": "passed",
-              "duration": 118000000
+              "duration": 154000000
             }
           },
           {
@@ -142,7 +142,7 @@
             "name": "valido na barra superior direito o cliente registrado",
             "result": {
               "status": "passed",
-              "duration": 969000000
+              "duration": 996000000
             }
           },
           {
@@ -152,7 +152,7 @@
             "name": "preencho no campo pesquisa produto",
             "result": {
               "status": "passed",
-              "duration": 889000000
+              "duration": 848000000
             }
           },
           {
@@ -162,7 +162,7 @@
             "name": "valido se existe o produto no sistema",
             "result": {
               "status": "passed",
-              "duration": 38000000
+              "duration": 31000000
             }
           }
         ]
@@ -187,7 +187,7 @@
             "name": "que estou com a aplicacao aberta",
             "result": {
               "status": "passed",
-              "duration": 5704000000
+              "duration": 5666000000
             }
           },
           {
@@ -197,7 +197,7 @@
             "name": "clico no icone superior direito com o simbolizando de login",
             "result": {
               "status": "passed",
-              "duration": 145000000
+              "duration": 136000000
             }
           },
           {
@@ -207,7 +207,7 @@
             "name": "preencho os campos userName e Password",
             "result": {
               "status": "passed",
-              "duration": 3670000000
+              "duration": 3723000000
             }
           },
           {
@@ -217,7 +217,7 @@
             "name": "clico no botão Sign in",
             "result": {
               "status": "passed",
-              "duration": 143000000
+              "duration": 151000000
             }
           },
           {
@@ -227,7 +227,7 @@
             "name": "valido na barra superior direito o cliente registrado",
             "result": {
               "status": "passed",
-              "duration": 959000000
+              "duration": 1257000000
             }
           },
           {
@@ -237,7 +237,7 @@
             "name": "seleciono a categoria do produto 'tablets'",
             "result": {
               "status": "passed",
-              "duration": 144000000
+              "duration": 148000000
             }
           },
           {
@@ -247,7 +247,7 @@
             "name": "clico na primeira oferta de produto no botao BUY NOW",
             "result": {
               "status": "passed",
-              "duration": 1576000000
+              "duration": 1099000000
             }
           },
           {
@@ -257,7 +257,7 @@
             "name": "clico no botão ADD TO CART",
             "result": {
               "status": "passed",
-              "duration": 1367000000
+              "duration": 1270000000
             }
           },
           {
@@ -267,7 +267,7 @@
             "name": "valido o evento de mensagem que o produto foi adicionando com sucesso",
             "result": {
               "status": "passed",
-              "duration": 953000000
+              "duration": 933000000
             }
           }
         ]
@@ -292,7 +292,7 @@
             "name": "que estou com a aplicacao aberta",
             "result": {
               "status": "passed",
-              "duration": 5445000000
+              "duration": 5477000000
             }
           },
           {
@@ -302,7 +302,7 @@
             "name": "clico no icone superior direito com o simbolizando de login",
             "result": {
               "status": "passed",
-              "duration": 141000000
+              "duration": 157000000
             }
           },
           {
@@ -312,7 +312,7 @@
             "name": "preencho os campos userName e Password",
             "result": {
               "status": "passed",
-              "duration": 3656000000
+              "duration": 3649000000
             }
           },
           {
@@ -322,7 +322,7 @@
             "name": "clico no botão Sign in",
             "result": {
               "status": "passed",
-              "duration": 166000000
+              "duration": 117000000
             }
           },
           {
@@ -332,7 +332,7 @@
             "name": "valido na barra superior direito o cliente registrado",
             "result": {
               "status": "passed",
-              "duration": 1266000000
+              "duration": 1273000000
             }
           },
           {
@@ -342,7 +342,7 @@
             "name": "seleciono a categoria do produto 'tablets'",
             "result": {
               "status": "passed",
-              "duration": 127000000
+              "duration": 125000000
             }
           },
           {
@@ -352,7 +352,7 @@
             "name": "clico na primeira oferta de produto no botao BUY NOW",
             "result": {
               "status": "passed",
-              "duration": 1085000000
+              "duration": 1149000000
             }
           },
           {
@@ -362,7 +362,7 @@
             "name": "clico no botão ADD TO CART",
             "result": {
               "status": "passed",
-              "duration": 1118000000
+              "duration": 1049000000
             }
           },
           {
@@ -372,7 +372,7 @@
             "name": "clico no icone de carrinho para acessa os produtos adicionados",
             "result": {
               "status": "passed",
-              "duration": 134000000
+              "duration": 147000000
             }
           },
           {
@@ -382,7 +382,7 @@
             "name": "clico no botao CHECKOUT para acessa area de pagamento",
             "result": {
               "status": "passed",
-              "duration": 2164000000
+              "duration": 2154000000
             }
           },
           {
@@ -392,7 +392,7 @@
             "name": "valido produtos incluídos na tela de pagamento",
             "result": {
               "status": "passed",
-              "duration": 2033000000
+              "duration": 2034000000
             }
           }
         ]
