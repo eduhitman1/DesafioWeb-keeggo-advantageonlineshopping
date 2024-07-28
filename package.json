@@ -1,23 +1,55 @@
 {
-  "name": "projectcypresstestweb",
+  "name": "cypress-advantageonline-web",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "cypress",
+    "test-automation",
+    "qa",
+    "javascript"
+  ],
+  "author": "Eduardo Henrique <edu.hitman01.eh@gmail.com>",
   "license": "ISC",
   "description": "",
-  "dependencies": {
-    "cypress": "^13.11.0"
-  },
+  
   "devDependencies": {
-    "cypress-cucumber-preprocessor": "^4.3.1"
+    "@babel/core": "^7.13.14",
+    "@babel/eslint-parser": "^7.13.14",
+    "@cypress/skip-test": "^2.6.1",
+    "@lfreneda/eh-dia-util": "^1.3.0",
+    "authenticator": "^1.1.5",
+    "cypress": "^12.17.4",
+    "cypress-delete-downloads-folder": "^0.0.2",
+    "cypress-file-upload": "^4.1.1",
+    "cypress-mochawesome-reporter": "^3.5.0",
+    "cypress-plugin-tab": "^1.0.5",
+    "eslint": "^7.32.0",
+    "faker-br": "^0.4.1",
+    "husky": "^7.0.4",
+    "npm": "^9.4.1",
+    "oracledb": "^5.4.0",
+    "sonar-scanner": "~3.0.3"
   },
     "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": true,
-    "stepDefinitions": "cypress/e2e/step_definitions"
+    "stepDefinitions": "cypress/support/step-definitions/",
+    "nonGlobalStepDefinitions": false,
+    "filterSpecs": true,
+    "omitFiltered": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-tags": "^1.1.2",
+    "moment": "^2.29.4",
+    "cypress": "^13.11.0"
   }
 
 }

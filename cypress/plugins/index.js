@@ -13,18 +13,17 @@
 // the project's config changing)
 
 
-const { cypressConfigResolver } = require('../config/cypress-config-resolver')
-const { removeDirectory } = require('cypress-delete-downloads-folder');
+// const { cypressConfigResolver } = require('../config/cypress-config-resolver')
+// const { removeDirectory } = require('cypress-delete-downloads-folder');
 const cucumber = require('cypress-cucumber-preprocessor').default
-const oracledb = require('oracledb')
-const oraDir = process.env.REMOTE ? '/opt/oracle/instantclient_21_9' : 'oracle/instantclient_21_9'
+
 console.log("Current directory:", __dirname);
 console.log("-----")
-oracledb.initOracleClient({ libDir: oraDir })
+// oracledb.initOracleClient({ libDir: oraDir })
 
 module.exports = (on, config) => {
     
-    on('task', { removeDirectory })
+    // on('task', { removeDirectory })
 
     on('file:preprocessor', cucumber());
 

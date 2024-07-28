@@ -1,0 +1,402 @@
+[
+  {
+    "keyword": "Funcionalidade",
+    "name": "Fluxo de registro de produtos no carrinho",
+    "line": 4,
+    "id": "fluxo-de-registro-de-produtos-no-carrinho",
+    "tags": [],
+    "uri": "adicionarProdutosCarrinho.feature",
+    "elements": [
+      {
+        "id": "fluxo-de-registro-de-produtos-no-carrinho;ct00---cenario-criação-de-massa-de-usuario",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "CT00 - Cenario criação de massa de usuario",
+        "tags": [
+          {
+            "name": "@GerarMassa01",
+            "line": 9
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 7,
+            "name": "que estou com a aplicacao aberta",
+            "result": {
+              "status": "passed",
+              "duration": 6588000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 11,
+            "name": "clico no link na area login create new account",
+            "result": {
+              "status": "passed",
+              "duration": 888000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 12,
+            "name": "preencho os dados account details",
+            "result": {
+              "status": "passed",
+              "duration": 2539000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 13,
+            "name": "preencho os dados personal details",
+            "result": {
+              "status": "passed",
+              "duration": 1039000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 14,
+            "name": "preencho os dados address",
+            "result": {
+              "status": "passed",
+              "duration": 1716000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entao ",
+            "line": 15,
+            "name": "clico no botao register para realizar o cadastro",
+            "result": {
+              "status": "passed",
+              "duration": 313000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "fluxo-de-registro-de-produtos-no-carrinho;ct01---validar-busca-de-produto-inserido-no-sistema",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "CT01 - Validar busca de produto inserido no sistema",
+        "tags": [
+          {
+            "name": "@PesquisarProduto",
+            "line": 17
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 7,
+            "name": "que estou com a aplicacao aberta",
+            "result": {
+              "status": "passed",
+              "duration": 5781000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 19,
+            "name": "clico no icone superior direito com o simbolizando de login",
+            "result": {
+              "status": "passed",
+              "duration": 115000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 20,
+            "name": "preencho os campos userName e Password",
+            "result": {
+              "status": "passed",
+              "duration": 3636000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 21,
+            "name": "clico no botão Sign in",
+            "result": {
+              "status": "passed",
+              "duration": 118000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 22,
+            "name": "valido na barra superior direito o cliente registrado",
+            "result": {
+              "status": "passed",
+              "duration": 969000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 23,
+            "name": "preencho no campo pesquisa produto",
+            "result": {
+              "status": "passed",
+              "duration": 889000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entao ",
+            "line": 24,
+            "name": "valido se existe o produto no sistema",
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "fluxo-de-registro-de-produtos-no-carrinho;ct02---validar-que-o-produto-foi-adicionado-no-carrinho-após-o-cliente-realizar-o-login",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "CT02 - Validar que o produto foi adicionado no carrinho após o cliente realizar o login",
+        "tags": [
+          {
+            "name": "@AdicionarProduto01",
+            "line": 26
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 7,
+            "name": "que estou com a aplicacao aberta",
+            "result": {
+              "status": "passed",
+              "duration": 5704000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 28,
+            "name": "clico no icone superior direito com o simbolizando de login",
+            "result": {
+              "status": "passed",
+              "duration": 145000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 29,
+            "name": "preencho os campos userName e Password",
+            "result": {
+              "status": "passed",
+              "duration": 3670000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 30,
+            "name": "clico no botão Sign in",
+            "result": {
+              "status": "passed",
+              "duration": 143000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 31,
+            "name": "valido na barra superior direito o cliente registrado",
+            "result": {
+              "status": "passed",
+              "duration": 959000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 32,
+            "name": "seleciono a categoria do produto 'tablets'",
+            "result": {
+              "status": "passed",
+              "duration": 144000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 33,
+            "name": "clico na primeira oferta de produto no botao BUY NOW",
+            "result": {
+              "status": "passed",
+              "duration": 1576000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 34,
+            "name": "clico no botão ADD TO CART",
+            "result": {
+              "status": "passed",
+              "duration": 1367000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entao ",
+            "line": 35,
+            "name": "valido o evento de mensagem que o produto foi adicionando com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 953000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "fluxo-de-registro-de-produtos-no-carrinho;ct03---validar-os-produtos-incluídos-no-carrinho-na-tela-de-pagamento",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "CT03 - Validar os produtos incluídos no carrinho na tela de pagamento",
+        "tags": [
+          {
+            "name": "@AdicionarProduto02",
+            "line": 37
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 7,
+            "name": "que estou com a aplicacao aberta",
+            "result": {
+              "status": "passed",
+              "duration": 5445000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 39,
+            "name": "clico no icone superior direito com o simbolizando de login",
+            "result": {
+              "status": "passed",
+              "duration": 141000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 40,
+            "name": "preencho os campos userName e Password",
+            "result": {
+              "status": "passed",
+              "duration": 3656000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 41,
+            "name": "clico no botão Sign in",
+            "result": {
+              "status": "passed",
+              "duration": 166000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 42,
+            "name": "valido na barra superior direito o cliente registrado",
+            "result": {
+              "status": "passed",
+              "duration": 1266000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 43,
+            "name": "seleciono a categoria do produto 'tablets'",
+            "result": {
+              "status": "passed",
+              "duration": 127000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 44,
+            "name": "clico na primeira oferta de produto no botao BUY NOW",
+            "result": {
+              "status": "passed",
+              "duration": 1085000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 45,
+            "name": "clico no botão ADD TO CART",
+            "result": {
+              "status": "passed",
+              "duration": 1118000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 46,
+            "name": "clico no icone de carrinho para acessa os produtos adicionados",
+            "result": {
+              "status": "passed",
+              "duration": 134000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 47,
+            "name": "clico no botao CHECKOUT para acessa area de pagamento",
+            "result": {
+              "status": "passed",
+              "duration": 2164000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 48,
+            "name": "valido produtos incluídos na tela de pagamento",
+            "result": {
+              "status": "passed",
+              "duration": 2033000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
